@@ -27,7 +27,7 @@ public class FabricaDeDaos {
             Reflections reflections = new Reflections(
                 new ConfigurationBuilder()
                     // CRUCIAL: Substitua abaixo pelo pacote exato da sua matéria/aula
-                    .forPackage("com.carlosribeiro.projeto.dao.impl")
+                    .forPackage("com.POO.projeto.dao.impl")
                     // Informa à biblioteca para buscar apenas subtipos e anotações na memória
                     .setScanners(Scanners.SubTypes, Scanners.TypesAnnotated)
             );
